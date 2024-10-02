@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Spanish recipes generator</title>
+    <title>AI Spanish Recipes Generator</title>
   </head>
+
   <body>
-    <h1>Welcome to the AI Spanish recipes generator</h1>
+    <header>
+      <h1>AI Spanish Recipes Generator</h1>
+    </header>
+
+    <main>
+      <form class="ingredients">
+        <input
+          type="text"
+          placeholder="Enter the ingredients you want to use"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+
+      <div class="ingredients-recipe">Recipe here</div>
+
+      <p>OR</p>
+
+      <form class="area-name">
+        <input
+          type="text"
+          placeholder="Enter the area of Spain"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+
+      <div class="area-recipe">Recipe here</div>
+
+      <p>OR</p>
+
+      <form class="dish-name">
+        <input
+          type="text"
+          placeholder="Name of the dish"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+
+      <div class="dish-recipe">Recipe here</div>
+    </main>
+
     <footer>
       This AI project was coded by
       <a href="https://github.com/MarinaPerezR" target="_blank">Marina P.R.</a>
@@ -24,6 +73,7 @@
         >Netlify</a
       >.
     </footer>
+
     <script src="src/index.js"></script>
   </body>
 </html>
