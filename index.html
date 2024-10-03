@@ -8,71 +8,78 @@
   </head>
 
   <body>
-    <header>
-      <h1>AI Spanish Recipes Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Spanish Recipes Generator</h1>
+      </header>
 
-    <main>
-      <form class="ingredients">
-        <input
-          type="text"
-          placeholder="Enter the ingredients you want to use"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the ingredients you want to use"
+            autofocus
+            required
+            autocomplete="off"
+            class="ingredients"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div class="ingredients-recipe">Recipe here</div>
+        <div class="ingredients-recipe">Recipe here</div>
 
-      <p>OR</p>
+        <p>OR</p>
 
-      <form class="area-name">
-        <input
-          type="text"
-          placeholder="Enter the area of Spain"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the area of Spain"
+            autofocus
+            required
+            autocomplete="off"
+            class="area-name"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div class="area-recipe">Recipe here</div>
+        <div class="area-recipe">Recipe here</div>
 
-      <p>OR</p>
+        <p>OR</p>
 
-      <form class="dish-name">
-        <input
-          type="text"
-          placeholder="Name of the dish"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+        <form>
+          <input
+            type="text"
+            placeholder="Name of the dish"
+            autofocus
+            required
+            autocomplete="off"
+            class="dish-name"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div class="dish-recipe">Recipe here</div>
-    </main>
+        <div class="dish-recipe">Recipe here</div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/MarinaPerezR" target="_blank">Marina P.R.</a>
-      . It's open-sourced on
-      <a
-        href="https://github.com/MarinaPerezR/spanish-recipes-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a
-        href="https://ai-spanish-recipes-generator.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/MarinaPerezR" target="_blank"
+          >Marina P.R.</a
+        >
+        . It's open-sourced on
+        <a
+          href="https://github.com/MarinaPerezR/spanish-recipes-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://ai-spanish-recipes-generator.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
