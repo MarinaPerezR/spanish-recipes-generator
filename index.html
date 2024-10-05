@@ -16,20 +16,23 @@
       </header>
 
       <main>
-        <form>
-          <input
-            type="text"
-            placeholder="Enter the ingredients you want to use"
-            autofocus
-            required
-            autocomplete="off"
-            class="ingredients"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the ingredients you want to use"
+              autofocus
+              required
+              autocomplete="off"
+              class="ingredients"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: potatoes, eggs, onion</div>
+        </div>
 
-        <div id="recipe"></div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
 
       <footer>
