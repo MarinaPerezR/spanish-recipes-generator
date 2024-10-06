@@ -68,10 +68,11 @@ form {
 #recipe {
   font-size: 16px;
   background-color: #fff;
-  line-height: 14px;
+  line-height: 25px;
   padding: 20px;
   border-left: 3px solid #885df1;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
 }
 
 .hidden {
